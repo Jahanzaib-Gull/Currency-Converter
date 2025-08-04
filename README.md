@@ -33,7 +33,7 @@ Follow these steps to get a local copy of the project up and running on your mac
 ### Installation
 Clone the repository:
 ```
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Jahanzaib-Gull/Currency-Converter/
 cd your-repo-name
 ```
 
