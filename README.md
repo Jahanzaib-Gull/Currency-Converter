@@ -1,12 +1,79 @@
-# React + Vite
+# Currency Converter
+A modern, responsive currency converter web application built with React and Vite. This app fetches the latest exchange rates from a public API to provide real-time currency conversion.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Demo:
+    https://jahanzaib-gull.github.io/Currency-Converter/
 
-Currently, two official plugins are available:
+## Features
+* Real-time Conversion: Fetches and displays up-to-date currency exchange rates.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Responsive Design: A clean, mobile-friendly user interface built with Tailwind CSS.
 
-## Expanding the ESLint configuration
+* Interactive: Easily select "from" and "to" currencies and input the amount for instant conversion.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Light/Dark Mode: Automatically adapts to the user's system theme for a comfortable viewing experience.
+
+## Technologies Used
+* React: A JavaScript library for building user interfaces.
+
+* Vite: A fast build tool that provides a leaner and quicker development experience.
+
+* Tailwind CSS: A utility-first CSS framework for rapid styling.
+
+* CurrencyFreaks API: A third-party service for fetching currency exchange rates.
+
+## Setup and Installation
+Follow these steps to get a local copy of the project up and running on your machine.
+
+### Prerequisites
+* Node.js (version 14 or higher)
+
+* npm or yarn
+
+### Installation
+Clone the repository:
+```
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+### Install dependencies:
+```
+npm install
+# or
+# yarn install
+```
+
+### Run the development server:
+```
+npm run dev
+# or
+# yarn dev
+```
+
+The application will be available at http://localhost:5173.
+
+## Deployment to GitHub Pages
+This project is configured to be deployed to GitHub Pages using the gh-pages package.
+
+1. Ensure you have the gh-pages package installed:
+```
+npm install gh-pages --save-dev
+```
+
+2. Verify your package.json and vite.config.js are configured correctly:
+
+* package.json should have homepage, predeploy, and deploy scripts.
+
+* vite.config.js should have the base property set to your repository name.
+
+3. Deploy the application:
+```
+npm run deploy
+```
+
+4. Finalize settings on GitHub:
+Go to your repository's Settings > Pages and set the source branch to gh-pages.
+
+Contributing
+Contributions are welcome! If you have suggestions or find a bug, please feel free to open an issue or create a pull request.
