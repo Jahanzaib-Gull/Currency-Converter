@@ -1,7 +1,7 @@
 # Currency Converter
 A modern, responsive currency converter web application built with React and Vite. This app fetches the latest exchange rates from a public API to provide real-time currency conversion.
 
-## Live Demo:
+Live Demo:
     https://jahanzaib-gull.github.io/Currency-Converter/
 
 ## Features
